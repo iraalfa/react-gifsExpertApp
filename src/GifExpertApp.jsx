@@ -4,9 +4,10 @@ import GifGrid from './components/GifGrid'
 
 const GifExpertApp = () => {
 
-   // const categories = ['One Punch', 'Samurai X', 'Dragon Ball']
+    // const categories = ['One Punch', 'Samurai X', 'Dragon Ball']
 
     const [categories, setCategories] = React.useState(['Zelda'])
+    // const [categories, setCategories] = React.useState(defaultCategories)
 
     // const handleApp = () => {
     //    // setCategories([...categories, 'HunterXHunter'])
